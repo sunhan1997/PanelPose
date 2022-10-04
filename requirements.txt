@@ -1,0 +1,12 @@
+numpy==1.18.1
+opencv-python
+torchvision==0.7.0
+pyquaternion
+progressbar2
+pyopengl
+pyassimp
+scipy
+pypng
+pyyaml
+glumpy
+open3d==0.9.0
