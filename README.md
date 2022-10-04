@@ -12,13 +12,13 @@ This are the official source code and datasets for ***PanelPose: A 6D Panel Obje
 - To address the problem of highly-variable panel pose estimation, we propose a simple yet effective method denoted as PanelPose that explicitly takes the extra feature maps along with RGB image as CNN input. We extract edge and line features of RGB image and fuse these feature maps as a multi-feature fusion map (MFF Map). Moreover, at the output representation stage, we design a simple but effective keypoint selection algorithm considering the shape information of panel objects, which simplifies keypoint localization for precise pose estimation.
 
 ## Installation
-- Install CUDA10.0
+- Install CUDA10.1, torch==1.6.0, torchvision==0.7.0
 - Set up python environment from requirement.txt:
   ```shell
   pip3 install -r requirement.txt 
   ```
 
 ## Datasets
-
+- The dataset includes model with texture, synthetic data, and real-world data.
 
 
