@@ -3,6 +3,7 @@ This are the official source code and datasets for ***PanelPose: A 6D Panel Obje
 
 <div align=center><img width="60%" height="60%" src="pictures/intro.gif"/></div>
 
+![image](image/CAD.png)
 
 ## Installation
 - Install CUDA10.0
