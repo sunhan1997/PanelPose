@@ -1,12 +1,14 @@
 # PanelPose
-This are the official source code and datasets for ***PanelPose: A 6D Panel Object Pose Estimation for Robotic Panel Inspection***. 
-
-<!-- <div align=center> <img width="60%" height="60%" src="image/panelpose.png"/></div> -->
+This are the official source code and datasets for ***PanelPose: A 6D Panel Object Pose Estimation for Robotic Panel Inspection***.  
 
 
-<div align=center><img src="image/panelpose.png" width="500"  /><br/> </div> 
+![image](image/first.png)
 
 
+## Introduction
+- **We'll upload the code and dataset step by step.** Now,the repository includes keypoint selection method (Edge-FPS and FLD-FPS) in the **tools** file, and the render code in the **lib** file. The rest of the code will be uploaded later.
+- The dataset will be published in [dataset](https://cowtransfer.com/s/d198a5118fe34e) (code: xhbn26)
+- To address the problem of highly-variable panel pose estimation, we propose a simple yet effective method denoted as PanelPose that explicitly takes the extra feature maps along with RGB image as CNN input. We extract edge and line features of RGB image and fuse these feature maps as a multi-feature fusion map (MFF Map). Moreover, at the output representation stage, we design a simple but effective keypoint selection algorithm considering the shape information of panel objects, which simplifies keypoint localization for precise pose estimation.
 
 ## Installation
 - Install CUDA10.0
