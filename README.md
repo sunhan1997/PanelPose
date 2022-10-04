@@ -1,10 +1,11 @@
 # PanelPose
 This are the official source code and datasets for ***PanelPose: A 6D Panel Object Pose Estimation for Robotic Panel Inspection***. 
 
-<div align=center><img width="60%" height="60%" src="pictures/intro.gif"/></div>
+<div align=center><img width="60%" height="60%" src="image/panelpose.png"/></div>
 
 [comment]: <> (![image]&#40;image/panelpose.png&#41;)
-<div align=center><img width="50%" src="image/panelpose.png"/></div>
+
+[comment]: <> (<div align=center><img width="50%" src="image/panelpose.png"/></div>)
 
 
 ## Installation
