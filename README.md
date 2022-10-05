@@ -25,7 +25,8 @@ This are the official source code and datasets for ***PanelPose: A 6D Panel Obje
 
 ## demo
 - In this demo, our pipline is used to estimate the panel pose and guides the robot to operate the buttons.
-<img src="image/demo.gif"/><br/>
+![image](image/demo.gif)
+
 <img src="image/example_diff_tex.png"/><br/>
 
 
