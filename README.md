@@ -20,7 +20,12 @@ This are the official source code and datasets for ***PanelPose: A 6D Panel Obje
 
 ## Datasets
 - The dataset includes model with texture, synthetic data, and real-world data.
+- The CAD models
 <img src="image/CAD.png"/><br/>
+- The render image.
+<img src="image/render.png"/><br/>
+- The test image.
+<img src="image/test.png"/><br/>
 
 
 ## demo
