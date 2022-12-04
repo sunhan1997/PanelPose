@@ -35,8 +35,9 @@ This are the official source code and datasets for ***PanelPose: A 6D Panel Obje
 <img src="image/example_diff_tex.png"/><br/>
 
 
-## Compare with other 
-- PPF_3D_ICP in this task
+## Compare with PPF_3D_ICP 
+- we also implemented the PPF_3D_ICP which is the best performance in the core datasets of the BOP Challenge (shown in Fig.1). We use the approximate CAD models of panels shown in Fig.2 to train the PPF detector, and the PPF estimates the panel pose from the cropped scene point cloud. We also add the multi-scale ICP with the multi-state point cloud template for refinement. The results of the PPF_3D_ICP including the ADD error, translation error, and rotation error are shown in Table.1. As we all know, the PPF method extracts point pair features from the 3D model and votes for the pose, which means this method relies on the precise 3D model. In this task, due to the lack of precise CAD models, the PPF detector trained by the approximate CAD models cannot provide good initial pose for the multi-scale ICP. Especially, the rotation error is so big that the ICP cannot work. Examples of the PPF_3D_ICP are shown in Fig.3, the green point cloud means the estimated pose, which shows the poor performance and big
+rotation errors.
 
 
 <img src="image/ppf3d.png"/><br/>
