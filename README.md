@@ -35,5 +35,12 @@ This are the official source code and datasets for ***PanelPose: A 6D Panel Obje
 <img src="image/example_diff_tex.png"/><br/>
 
 
+## Compare with other 
+- PPF_3D_ICP in this task
+
+
+<img src="image/ppf3d.png"/><br/>
+
+
 
 
